@@ -101,7 +101,7 @@ const HotTopics = () => {
           {categoriesTop.map((category, index) => (
             <div
               key={index}
-              className="flex items-center gap-3 bg-white rounded-xl p-3 cursor-pointer shadow hover:shadow-lg transition"
+              className="flex items-center gap-3 bg-white rounded-xl p-3 cursor-pointer border border-gray-300 hover:shadow-lg transition"
             >
               <img
                 src={category.img}
@@ -109,8 +109,8 @@ const HotTopics = () => {
                 className="w-12 h-12 md:w-16 md:h-16 rounded-xl object-cover"
               />
               <div>
-                <h3 className="font-semibold text-sm md:text-base">{category.title}</h3>
-                <span className="text-xs text-gray-500 rounded-md bg-gray-200 px-2 py-0.5">
+                <h3 className="text-sm md:text-base poppins-semibold">{category.title}</h3>
+                <span className="poppins-regular text-xs text-gray-500 rounded-md bg-gray-200 px-2 py-0.5">
                   {category.posts} posts
                 </span>
               </div>
