@@ -11,8 +11,12 @@ const HeroCard = ({
 }) => {
   return (
     <div className="relative">
-      <div className="relative bg-gray-300 w-full h-90 rounded-xl">
-        <img src={image} alt="Hero" className="object-cover w-full h-full rounded-xl" />
+      <div className="relative bg-gray-300 w-full h-90 rounded-xl overflow-hidden group">
+        <img
+          src={image}
+          alt="Hero"
+          className="object-cover w-full h-full rounded-xl transform transition-transform duration-500 ease-in-out group-hover:scale-110 cursor-pointer"
+        />
       </div>
 
       <div className="absolute top-60 mx-5 p-10 z-10 bg-white/20 backdrop-blur-md rounded-xl border border-white/30 shadow-md">

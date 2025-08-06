@@ -1,9 +1,13 @@
+import Footer from "./components/Footer/Footer"
+import Header from "./components/Header/Header"
 import Home from "./page/Home/Home"
 
 function App() {
   return (
     <>
-      <Home/>     
+      <Header/>
+      <Home/>   
+      <Footer/>  
     </>
   )
 }
