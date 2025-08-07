@@ -27,7 +27,7 @@ const Hero = () => {
       category: "Lifestyle",
       date: "Jun 13, 2025",
       readTime: "6 mins read",
-      title: "Digital Detox: A Modern Necessity",
+      title: "Digital Detox: A Modern Mindfulness is a Necessity",
       description: "From mindfulness to minimalism, learn how people are reclaiming their time in a hyperconnected world.",
     },
   ];
